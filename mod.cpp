@@ -1,4 +1,4 @@
-name = "Diwako's ACE medical tweaksm";
+name = "Diwako's ACE medical tweaks {version}";
 dir = "@diwako_ace_medical_tweaks";
 author = "diwako";
 
