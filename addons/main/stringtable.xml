@@ -14,7 +14,13 @@
             <English>AI limb damage factors in with fatal damage</English>
         </Key>
         <Key ID="STR_diw_ace_medical_aiLimbDamage_desc">
-            <English>In regular ace medical, it is not possible to receive a fatal wound from limb damage. You may pass out or bleed out from the wounds, but you do not straight up die. With this AI and ONLY AI will get the limb damage factored in, making them less damage resistant so to speak.</English>
+            <English>In regular ace medical, it is not possible to receive a fatal wound from limb damage. You may pass out or bleed out from the wounds, but you do not straight up die. With this AI and ONLY AI will get the limb damage factored in, making them less damage resistant so to speak. Only applicable if fata damage source is set to Either or Sum of Trauma!</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_aiLimbThresholdMultiplier">
+            <English>Limb threshold multiplier</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_aiLimbThresholdMultiplier_desc">
+            <English>Takes ACE's regular AI damage threshold and multiplies it with given value. Damage combined from all limbs will be compared to the value that is (AI damage threshold) * (AI limb threshold multiplier). ONLY applies to limbs of AI!</English>
         </Key>
         <Key ID="STR_diw_ace_medical_tourniquetTime">
             <English>Time to Tourniquet</English>

@@ -52,7 +52,7 @@ private _curCat = localize "STR_ACE_Medical_Treatment_SubCategory_Treatment";
     "SLIDER",
     ["STR_diw_ace_medical_pakMultiplier", "STR_diw_ace_medical_pakMultiplier_desc"],
     [_cat, _curCat],
-    [0.1, 5, 1, 2],
+    [0.01, 5, 1, 2],
     true
 ] call CBA_fnc_addSetting;
 
@@ -64,5 +64,14 @@ _curCat = localize "str_a3_normaldamage1";
     ["STR_diw_ace_medical_aiLimbDamage", "STR_diw_ace_medical_aiLimbDamage_desc"],
     [_cat, _curCat],
     true,
+    true
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(aiLimbThresholdMultiplier),
+    "SLIDER",
+    ["STR_diw_ace_medical_aiLimbThresholdMultiplier", "STR_diw_ace_medical_aiLimbThresholdMultiplier_desc"],
+    [_cat, _curCat],
+    [0.1, 24, 12, 1],
     true
 ] call CBA_fnc_addSetting;
