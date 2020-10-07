@@ -1,0 +1,12 @@
+name = "diw_ace_medical"
+prefix = "diwako_ace_medical"
+author = "diwako"
+template = "cba"
+mainprefix = "z"
+folder_optionals = true
+sig_version = 3
+exclude = [
+    "*.psd",
+    "*.png",
+    "*.tga"
+]

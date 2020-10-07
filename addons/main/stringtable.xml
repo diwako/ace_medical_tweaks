@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="diw_ace_medical">
+    <Package name="main">
+        <Key ID="STR_diw_ace_medical_mod">
+            <English>Diwako's ACE medical tweaks</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_checkResponse">
+            <English>Check Response enhancement</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_checkResponse_desc">
+            <English>Shows if unit is still alive on top of their responsiveness</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_aiLimbDamage">
+            <English>AI limb damage factors in with fatal damage</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_aiLimbDamage_desc">
+            <English>In regular ace medical, it is not possible to receive a fatal wound from limb damage. You may pass out or bleed out from the wounds, but you do not straight up die. With this AI and ONLY AI will get the limb damage factored in, making them less damage resistant so to speak.</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_tourniquetTime">
+            <English>Time to Tourniquet</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_splintTime">
+            <English>Time to Splint</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_bloodTime">
+            <English>Time to give blood</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_cprTime">
+            <English>Time to give CPR</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_pakMultiplier">
+            <English>PAK Time multiplier</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_pakMultiplier_desc">
+            <English>Multiplies the time you need to PAK the patient. Values below 1 will make the process faster, values above 1 will make the process slower!</English>
+        </Key>
+    </Package>
+</Project>
