@@ -23,3 +23,7 @@ In the ACE medical rewrite, limb damage does not outright kill you. Damage to li
 With this setting it is possible to make limb damage be factored into the fatal wound calculation, meaning affected units "feel" less "spongy" or something.
 
 This only affects AI!
+
+
+## Links
+Steamworkshop: https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=2264863911
