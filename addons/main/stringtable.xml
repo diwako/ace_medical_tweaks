@@ -22,23 +22,5 @@
         <Key ID="STR_diw_ace_medical_aiLimbThresholdMultiplier_desc">
             <English>Takes ACE's regular AI damage threshold and multiplies it with given value. Damage combined from all limbs will be compared to the value that is (AI damage threshold) * (AI limb threshold multiplier). ONLY applies to limbs of AI!</English>
         </Key>
-        <Key ID="STR_diw_ace_medical_tourniquetTime">
-            <English>Time to Tourniquet</English>
-        </Key>
-        <Key ID="STR_diw_ace_medical_splintTime">
-            <English>Time to Splint</English>
-        </Key>
-        <Key ID="STR_diw_ace_medical_bloodTime">
-            <English>Time to give blood</English>
-        </Key>
-        <Key ID="STR_diw_ace_medical_cprTime">
-            <English>Time to give CPR</English>
-        </Key>
-        <Key ID="STR_diw_ace_medical_pakMultiplier">
-            <English>PAK Time multiplier</English>
-        </Key>
-        <Key ID="STR_diw_ace_medical_pakMultiplier_desc">
-            <English>Multiplies the time you need to PAK the patient. Values below 1 will make the process faster, values above 1 will make the process slower!</English>
-        </Key>
     </Package>
 </Project>
