@@ -11,7 +11,7 @@
         private _bodyPartDamage = _unit getVariable [QACEGVAR(medical,bodyPartDamage), [0,0,0,0,0,0]];
         _bodyPartDamage params ["", "", "_leftArmDamage", "_rightArmDamage", "_leftLegDamage", "_rightLegDamage"];
 
-        private _damageThreshold = (_unit getVariable [QACEGVAR(medical,damageThreshold), ACEGVAR(medical,AIDamageThreshold)]) * 4;
+        private _damageThreshold = (_unit getVariable [QACEGVAR(medical,damageThreshold), ACEGVAR(medical,AIDamageThreshold)]) * GVAR(aiLimbThresholdMultiplier);
 
         if ((_leftArmDamage + _rightArmDamage + _leftLegDamage + _rightLegDamage) > _damageThreshold) then {
             [QACEGVAR(medical,FatalInjury), _unit] call CBA_fnc_localEvent;
