@@ -5,7 +5,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_medical_treatment"};
+        requiredAddons[] = {"ace_medical_treatment", "ace_medical_damage"};
         author = "diwako";
         url = "https://github.com/diwako/diw_ace_medical";
         authorUrl = "https://github.com/diwako";
@@ -16,3 +16,4 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "AceMedicalTreatmentActions.hpp"
+#include "AceMedicalInjuries.hpp"

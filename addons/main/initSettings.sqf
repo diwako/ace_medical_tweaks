@@ -30,3 +30,17 @@ _curCat = localize "str_a3_normaldamage1";
     [0.1, 24, 12, 1],
     true
 ] call CBA_fnc_addSetting;
+
+[
+    QGVAR(fallDamageMaxWoundsCount),
+    "SLIDER",
+    ["STR_diw_ace_medical_fallDamageMaxWoundsCount", "STR_diw_ace_medical_fallDamageMaxWoundsCount_desc"],
+    [_cat, _curCat],
+    [0, 7, 2, 0],
+    true,
+    {
+        params ["_value"];
+        GVAR(fallDamageMaxWoundsCount) = floor _value;
+    }
+] call CBA_fnc_addSetting;
+
