@@ -1,17 +1,18 @@
 #include "script_component.hpp"
 /*
  * Author: diwako
- * Handles fall damage form ace
+ * Handles fall damage from ACE
  *
  * Arguments:
- * 0: Medic <OBJECT>
- * 1: Patient <OBJECT>
+ * 0: Unit <OBJECT>
+ * 1: Damage Info <ARRAY>
+ * 3: Damage Type <STRING>
  *
  * Return Value:
- * Array of ACE damage info
+ * Array of ACE damage info, effectively same info structure as arguments
  *
  * Example:
- * [player, cursorObject] call diw_ace_medical_fnc_handleFallDamage
+ * [player, [], "falling"] call diw_ace_medical_fnc_handleFallDamage
  *
  * Public: No
  */
