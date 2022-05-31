@@ -18,7 +18,3 @@
         };
     }, _this] call CBA_fnc_execNextFrame;
 }] call CBA_fnc_addEventHandler;
-
-["ace_medical_woundReceived", {
-    systemchat str (_this select 3);
-}] call CBA_fnc_addEventHandler;
