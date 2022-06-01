@@ -8,13 +8,7 @@ Sometimes this is just a test bed before a PR to ACE is considered, who knows.
 
 ## Adjustable treatment times
 
-Some treatment times are hard coded to some value in ACE, here they get modified to be variable. Some examples:
-
-- Time to tourniquet
-- Time to Splint
-- Time to give blood
-- Time to give CPR
-- Modifier for PAK time
+Removed from here as that is now in ACE itself!
 
 ## AI Limb damage factors into fatal wounds
 
@@ -23,6 +17,14 @@ In the ACE medical rewrite, limb damage does not outright kill you. Damage to li
 With this setting it is possible to make limb damage be factored into the fatal wound calculation, meaning affected units "feel" less "spongy" or something.
 
 This only affects AI!
+
+## Check response if dead or just uncon
+
+Check response now tells you exactly if the unit is alive or dead
+
+## Fall damage filter
+
+Reduce the amount of body parts fall damage gets applied to. With this you can also disable fall damage completely if so desired.
 
 
 ## Links
