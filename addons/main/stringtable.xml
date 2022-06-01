@@ -22,5 +22,11 @@
         <Key ID="STR_diw_ace_medical_aiLimbThresholdMultiplier_desc">
             <English>Takes ACE's regular AI damage threshold and multiplies it with given value. Damage combined from all limbs will be compared to the value that is (AI damage threshold) * (AI limb threshold multiplier). ONLY applies to limbs of AI!</English>
         </Key>
+        <Key ID="STR_diw_ace_medical_fallDamageMaxBodyPartCount">
+            <English>Falling DMG: Max hurt body parts count</English>
+        </Key>
+        <Key ID="STR_diw_ace_medical_fallDamageMaxBodyPartCount_desc">
+            <English>Falling has the potential to hurt all body parts, this setting will only hurt the selected number of randomly selected body parts. All damage of the filtered out body parts will be transferred over! It is possible to gain multiple wounds per body part! Sometimes falling is considered a vehicle collission, then this setting will not work!</English>
+        </Key>
     </Package>
 </Project>
